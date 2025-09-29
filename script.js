@@ -11,7 +11,7 @@ const musicData = [
     { id: 'song9', x: 1000, y: 1500, titleUrl: 'https://i.imgur.com/R8kJ9GF.png', musicUrl: 'Xx9V0fTDJY0', popupImageUrl: 'https://i.imgur.com/R8kJ9GF.png' },
     { id: 'song10', x: 750, y: 600, titleUrl: 'https://i.imgur.com/XB8QeJg.png', musicUrl: 'nsXwi67WgOo', popupImageUrl: 'https://i.imgur.com/XB8QeJg.png' },
     { id: 'song11', x: 1300, y: 250, titleUrl: 'https://i.imgur.com/TL7hh0N.png', musicUrl: 'YT-G9B1lKdc', popupImageUrl: 'https://i.imgur.com/TL7hh0N.png' },
-    { id: 'song12', x: 1300, y: 1550, titleUrl: 'https://iimgur.com/P8tDNP9.png', musicUrl: 'lvI8PggyBJw', popupImageUrl: 'https://iimgur.com/P8tDNP9.png' },
+    { id: 'song12', x: 1300, y: 1550, titleUrl: 'https://i.imgur.com/P8tDNP9.png', musicUrl: 'lvI8PggyBJw', popupImageUrl: 'https://i.imgur.com/P8tDNP9.png' },
     { id: 'song13', x: 600, y: 1300, titleUrl: 'https://i.imgur.com/TNH59C0.png', musicUrl: 'w-ZvGTq9JHU', popupImageUrl: 'https://i.imgur.com/TNH59C0.png' },
     { id: 'song14', x: 800, y: 400, titleUrl: 'https://i.imgur.com/7wLGVav.png', musicUrl: '_IrQHeDcMi8', popupImageUrl: 'https://i.imgur.com/7wLGVav.png' },
     { id: 'song15', x: 850, y: 750, titleUrl: 'https://i.imgur.com/xj3CMOn.png', musicUrl: 'dsgan8jxdV0', popupImageUrl: 'https://i.imgur.com/xj3CMOn.png' },
