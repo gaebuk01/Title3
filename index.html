@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>음악 플레이리스트 지도</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="viewport">
+    <div id="ruler-x"></div> <div id="ruler-y"></div>
+    <div class="emotion-label" id="label-molto-vivace">Molto Vivace</div>
+    <div class="emotion-label" id="label-poco-vivace">Poco Vivace</div>
+    <div class="emotion-label" id="label-molto-senza">Molto Senza</div>
+    <div class="emotion-label" id="label-poco-senza">Poco Senza</div>
+
+    <div id="mouse-tracker-x"></div>
+    <div id="mouse-tracker-y"></div>
+    <div id="mouse-tracker-box"></div>
+
+    <div id="map-container">
+      <img id="map-background" src="https://i.imgur.com/62wRhzU.png" alt="지도 배경" draggable="false">
+      <div id="title-container"></div>
+    </div>
+  </div>
+
+  <div id="music-popup" class="hidden">
+    <div class="popup-content">
+      <img id="popup-image" src="" alt="팝업 이미지">
+      <div id="video-player"></div>
+    </div>
+  </div>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>
